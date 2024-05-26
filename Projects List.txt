@@ -1,0 +1,22 @@
+1	Badmaash	UB City, 203, 2nd Floor, The Collection, 24, Vittal Mallya Rd, Bengaluru, Karnataka 560001	2020	Completed	https://drive.google.com/drive/folders/1xQvSPdGaZleqZ400qZ7ubnnrChmtqTfz?usp=share_link	Restaurant 
+2	Mirage	Sixth Floor, One Soba Mall, Shantala Nagar, Ashok Nagar, Bangalore 560001 	2021	Completed	https://drive.google.com/drive/folders/11__uwUWTeOS3V2CxoJ-iBmiZGeJMMGqA?usp=share_link	Lounge
+3	Tycoons	1080, 1st Floor, 12th Main Rd, HAL 2nd Stage, Appareddipalya, Indiranagar, Bengaluru, Karnataka 560008	2021	Completed	https://drive.google.com/drive/folders/1YG3wG6ZYs69xud9sCkiJoaaWDzPUs58j?usp=share_link	Restaurant 
+4	One Night in Bangkok	UB City, 203, 2nd Floor, The Collection, 24, Vittal Mallya Rd, Bengaluru, Karnataka 560001	2021	Completed	https://drive.google.com/drive/folders/14X5HVjjp4kQMSLZ9tRhN1J-g6RxKs7WF?usp=share_link	Speakeasy Bar
+5	Taki Taki	10, Sankey Rd, next to BDA Head Office, Kumarapark West, Seshadripuram, Bengaluru, Karnataka 560020	2021	Completed	https://drive.google.com/drive/folders/1XcPm5jI784Ig0vcz5MxkjW0ZK7a_rsAs?usp=share_link	High Energy Bar
+6	Prost	Besides Quadro living, Plot # 1026, Road No. 45, CBI Colony, Jubilee Hills, Hyderabad, Telangana 500033	2021	Completed	https://drive.google.com/file/d/19LfQVOehwbTtCK-3QR-lg1np_yd3M22F/view	Microbrewery
+7	Mirage Beach Club	Small Vagator, Vagator, Goa, Goa, 403509	2021	Completed		High Energy Bar
+8	The Fatty Bao	25/4, 1st floor, Lavelle Road, opposite Harley Davidson showroom, D' Souza Layout, Ashok Nagar, Bengaluru, Karnataka 560001	2022	Completed		Restaurant 
+9	Smoor	Ground Floor, Prestige Sterling Square, State Bank of India Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001	2022	Completed	https://www.dropbox.com/sh/mkdqwsrxfdocjca/AABC1hOm_btZIBTZZy3Q8SxOa?dl=0&e=1	Chocolate Cafe
+10	Zythum	74a, Jubilee Hills Check Post Rd, Park View Enclave, Jubilee Hills, Hyderabad, Telangana 500033	2023	Completed	https://drive.google.com/drive/folders/1sjJSgpAsJddbM4dXw85JCgqR0_NJA97I?usp=share_link	Microbrewery
+					https://drive.google.com/drive/folders/17SXBkj8FOY-OffaUyTxMSbK7gnDiBP8p?usp=sharing	
+11	Villa No 14	7, Convent Rd, Srinivas Nagar, Shanthala Nagar, Richmond Town, Bengaluru, Karnataka 560025	2022	Completed		Residential
+12	Lupa	Ground Floor, NO.86, SPENCER'S TOWERS, Mahatma Gandhi Rd, Haridevpur, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001	2023	Completed		Luxury Fine Dine
+13	Pangeo	4th floor, 171 - 172, Forum Rex Walk, Brigade Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001	2024	Completed	https://drive.google.com/drive/folders/1I7Mbwya9gjCcunjeZNd1s5y0L3luAtoX	Lounge
+14	Pangeo X Kingfisher Ultra	4th floor, 171 - 172, Forum Rex Walk, Brigade Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001	2024	Completed	https://drive.google.com/drive/folders/1kxk8EiDRc686n1hyMDO4KrtVmcQB_N5v?usp=share_link	Lounge
+15	Villa no 16	7, Convent Rd, Srinivas Nagar, Shanthala Nagar, Richmond Town, Bengaluru, Karnataka 560025	2024	Completed		Residential
+16	Ouro	4th floor, 171 - 172, Forum Rex Walk, Brigade Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001	2024	Completed	https://drive.google.com/drive/folders/1BWVyp2k09U_Sw7zhA7hR0jqfKforv4FV	Restaurant 
+17	Gypsy Tower	45, 4th B Cross, Koramangala Industrial Layout, 5th Block, Bengaluru, Karnataka 560034	2024	Completed	https://drive.google.com/drive/folders/1kBXwNmm0wnt6EpEAJdtbFcgBzQEAq_JX	High Energy Bar
+18	UTK	Kanakapura Rd, Anjanadri Layout, Konanakunte, Bengaluru, Karnataka 560062	2024	Completed	https://drive.google.com/drive/folders/1SE__fPMk-Kzh67tvRTvsKdCqZl-ldo30	Restaurant 
+19	Rahul Joseph's Bar	Koramangala, 5th Block, Bangalore - 560 029	2023	Completed		Speakeasy Bar
+20	ROTO	Terrace Floor, 1st Main Rd, next to Byg Brewski, Visthar, Byrathi, Bengaluru, Karnataka 560077		WIP		Microbrewery
+21	Pinto's Residence Bar	Bangalore	2024	WIP		Speakeasy Bar

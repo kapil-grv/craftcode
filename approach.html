@@ -24,13 +24,30 @@
     <link href="css/templatemo-festava-live.css" rel="stylesheet">
 
 </head>
+<style>
+    @keyframes reveal {
+      80% {
+        letter-spacing: 8px;
+      }
+      100% {
+        background-size: 300% 300%;
+      }
+    }
+
+    @keyframes glow {
+      40% {
+        text-shadow: 0 0 8px #357fdf;
+      }
+    }
+  </style>
+
 <body>
 
     <!-- Loading Page -->
     <div id="loading-page" class="loading-page">
-        <div class="loader-container">
-            <p class="logo">Craft CoDe</p>
-            <div class="loading-bar" id="loading-bar" style="width: 5px; "></div>
+        <div class="loader-container" style="width: 100%; ">
+            <p class="logo" style="background: 50% 100% / 50% 50% no-repeat radial-gradient(ellipse at bottom, #357fdf, transparent, transparent); -webkit-background-clip: text; background-clip: text; color: transparent; font-size: 5vw; animation: reveal 1000ms ease-in-out forwards 200ms, glow 1500ms linear infinite 1000ms;">Craft CoDe</p>
+            <!-- <div class="loading-bar" id="loading-bar" style="width: 5px; "></div> -->
         </div>
     </div>
 
@@ -94,7 +111,7 @@
                         <br>
                         <br>
                         <div class="col-12 text-center">
-                            <h6 class="mb-2" style="text-align: left; font-family: barlow; font-size: x-large;   font-weight: var(--font-weight-bold)-;">Our meticulous launch process for new sites</h6>
+                            <h6 class="mb-2" style="text-align: left; font-family: barlow; font-size: x-large; font-weight: var(--font-weight-bold)-;">Our meticulous launch process for new sites</h6>
                         </div>
                         <br>
                         <br>
@@ -246,7 +263,7 @@
                         </li>
 
                         <li class="site-footer-link-item">
-                            <a href="career.html" class="site-footer-link">Career</a>
+                            <a href="https://www.linkedin.com/company/craft-codeblr/jobs/" class="site-footer-link">Career</a>
                         </li>
 
                         <li class="site-footer-link-item">

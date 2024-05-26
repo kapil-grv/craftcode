@@ -24,13 +24,30 @@
     <link href="css/templatemo-festava-live.css" rel="stylesheet">
 
 </head>
+<style>
+    @keyframes reveal {
+      80% {
+        letter-spacing: 8px;
+      }
+      100% {
+        background-size: 300% 300%;
+      }
+    }
+
+    @keyframes glow {
+      40% {
+        text-shadow: 0 0 8px #357fdf;
+      }
+    }
+  </style>
+
 <body>
 
     <!-- Loading Page -->
     <div id="loading-page" class="loading-page">
-        <div class="loader-container">
-            <p class="logo">Craft CoDe</p>
-            <div class="loading-bar" id="loading-bar" style="width: 5px; "></div>
+        <div class="loader-container" style="width: 100%; ">
+            <p class="logo" style="background: 50% 100% / 50% 50% no-repeat radial-gradient(ellipse at bottom, #357fdf, transparent, transparent); -webkit-background-clip: text; background-clip: text; color: transparent; font-size: 5vw; animation: reveal 1000ms ease-in-out forwards 200ms, glow 1500ms linear infinite 1000ms;">Craft CoDe</p>
+            <!-- <div class="loading-bar" id="loading-bar" style="width: 5px; "></div> -->
         </div>
     </div>
 
@@ -84,197 +101,307 @@
         <section class="artists-section section-padding" id="projects">
             <div class="container">
                 <div class="row justify-content-center">
-
-                    <!-- <div class="col-12 text-center">
-                        <h2 class="mb-4">Projects</h1>
-                    </div> -->
-
                     <div class="col-lg-5 col-12">
                         <div class="artists-thumb">
-                            <a class="artists-image-wrap" href="projects/pangeo.html" style="width: 100%;">
-                                <img src="images/slideshow/1.jpg"
-                                    class="artists-image img-fluid">
-                                    <div class="artists-hover">
-                                        <p>
-                                            <strong>Name:</strong>
-                                            Pangeo
-                                        </p>
-        
-                                        <p>
-                                            <strong>Location:</strong>
-                                            Bangalore
-                                        </p>
-        
-                                        <p>
-                                            <strong>Type of Space:</strong>
-                                            Restaurant
-                                        </p>
-        
-                                        <hr>
-        
-                                        <p class="mb-0">
-                                            <strong>Established :</strong>
-                                            <a>2024</a>
-                                        </p>
-                                    </div>
-                            </a>
-                        </div>
-
-                        <div class="artists-thumb">
-                            <a class="artists-image-wrap" href="projects/pangeo.html" style="width: 100%;">
-                                <img src="images/slideshow/1.jpg"
-                                    class="artists-image img-fluid">
-
+                            <a class="artists-image-wrap" href="projects/Badmaash.html" style="width: 100%;">
+                                <img src="images/projects/Badmash/1.jpg" class="artists-image img-fluid">
                                 <div class="artists-hover">
-                                    <p>
-                                        <strong>Name:</strong>
-                                        Badmaash
-                                    </p>
-
-                                    <p>
-                                        <strong>Location:</strong>
-                                        Bangalore
-                                    </p>
-
-                                    <p>
-                                        <strong>Type of Space:</strong>
-                                        Lounge
-                                    </p>
-
+                                    <p><strong>Name:</strong> Badmaash</p>
+                                    <p><strong>Location:</strong> Bangalore</p>
+                                    <p><strong>Type of Space:</strong> Restaurant</p>
                                     <hr>
-
-                                    <p class="mb-0">
-                                        <strong>Established :</strong>
-                                        <a href="#">2024</a>
-                                    </p>
+                                    <p class="mb-0"><strong>Established :</strong>2020</p>
                                 </div>
                             </a>
                         </div>
-
-                        <div class="artists-thumb">
-                            <img src="images/slideshow/1.jpg"
-                                class="artists-image img-fluid">
-
-                            <div class="artists-hover">
-                                <p>
-                                    <strong>Name:</strong>
-                                    Badmaash
-                                </p>
-
-                                <p>
-                                    <strong>Location:</strong>
-                                    Bangalore
-                                </p>
-
-                                <p>
-                                    <strong>Type of Space:</strong>
-                                    Restaurant
-                                </p>
-
-                                <hr>
-
-                                <p class="mb-0">
-                                    <strong>Established :</strong>
-                                    <a href="#">2024</a>
-                                </p>
-                            </div>
-                        </div>
                     </div>
-
+                    <!-- Add similar blocks for each venue -->
+                    <!-- Example for Mirage -->
                     <div class="col-lg-5 col-12">
                         <div class="artists-thumb">
-                            <div class="artists-image-wrap">
-                                <img src="images/slideshow/6.jpg"
-                                    class="artists-image img-fluid">
-                            </div>
-
-                            <div class="artists-hover">
-                                <p>
-                                    <strong>Name:</strong>
-                                    Badmaash
-                                </p>
-
-                                <p>
-                                    <strong>Location:</strong>
-                                    Bangalore
-                                </p>
-
-                                <p>
-                                    <strong>Cusines:</strong>
-                                    Continental, BBQ, etc..,
-                                </p>
-
-                                <hr>
-
-                                <p class="mb-0">
-                                    <strong>Established :</strong>
-                                    <a href="#">2024</a>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="artists-thumb">
-                            <img src="images/slideshow/1.jpg"
-                                class="artists-image img-fluid">
-
-                            <div class="artists-hover">
-                                <p>
-                                    <strong>Name:</strong>
-                                    Badmaash
-                                </p>
-
-                                <p>
-                                    <strong>Location:</strong>
-                                    Bangalore
-                                </p>
-
-                                <p>
-                                    <strong>Cusines:</strong>
-                                    Continental, BBQ, etc..,
-                                </p>
-
-                                <hr>
-
-                                <p class="mb-0">
-                                    <strong>Established :</strong>
-                                    <a href="#">2024</a>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="artists-thumb">
-                            <img src="images/slideshow/1.jpg"
-                                class="artists-image img-fluid">
-
-                            <div class="artists-hover">
-                                <p>
-                                    <strong>Name:</strong>
-                                    Badmaash
-                                </p>
-
-                                <p>
-                                    <strong>Location:</strong>
-                                    Bangalore
-                                </p>
-
-                                <p>
-                                    <strong>Cusines:</strong>
-                                    Continental, BBQ, etc..,
-                                </p>
-
-                                <hr>
-
-                                <p class="mb-0">
-                                    <strong>Established :</strong>
-                                    <a href="#">2024</a>
-                                </p>
-                            </div>
+                            <a class="artists-image-wrap" href="projects/Mirage.html" style="width: 100%;">
+                                <img src="images/projects/Mirage/1.jpg" class="artists-image img-fluid">
+                                <div class="artists-hover">
+                                    <p><strong>Name:</strong> Mirage</p>
+                                    <p><strong>Location:</strong> Bangalore</p>
+                                    <p><strong>Type of Space:</strong> Lounge</p>
+                                    <hr>
+                                    <p class="mb-0"><strong>Established :</strong>2021</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
-
+                    <!-- Repeat for other venues -->
+                    <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <a class="artists-image-wrap" href="projects/Tycoons.html" style="width: 100%;">
+                                <img src="images/projects/Tycoons/1.jpg" class="artists-image img-fluid">
+                                <div class="artists-hover">
+                                    <p><strong>Name:</strong> Tycoons</p>
+                                    <p><strong>Location:</strong> Bangalore</p>
+                                    <p><strong>Type of Space:</strong> Restaurant</p>
+                                    <hr>
+                                    <p class="mb-0"><strong>Established :</strong>2021</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <a class="artists-image-wrap" href="projects/One_Night_in_Bangkok.html" style="width: 100%;">
+                                <img src="images/projects/One_Night_In_Bangkok/10.jpg" class="artists-image img-fluid">
+                                <div class="artists-hover">
+                                    <p><strong>Name:</strong> One Night in Bangkok</p>
+                                    <p><strong>Location:</strong> Bangalore</p>
+                                    <p><strong>Type of Space:</strong> Speakeasy Bar</p>
+                                    <hr>
+                                    <p class="mb-0"><strong>Established :</strong>2021</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <a class="artists-image-wrap" href="projects/Prost.html" style="width: 100%;">
+                                <img src="images/projects/Prost/1.jpg" class="artists-image img-fluid">
+                                <div class="artists-hover">
+                                    <p><strong>Name:</strong> Prost</p>
+                                    <p><strong>Location:</strong> Hyderabad</p>
+                                    <p><strong>Type of Space:</strong> Microbrewery</p>
+                                    <hr>
+                                    <p class="mb-0"><strong>Established :</strong>2021</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <a class="artists-image-wrap" href="projects/Taki_Taki.html" style="width: 100%;">
+                                <img src="images/projects/Taki_Taki_BLR/3.jpg" class="artists-image img-fluid">
+                                <div class="artists-hover">
+                                    <p><strong>Name:</strong> Taki Taki</p>
+                                    <p><strong>Location:</strong> Bangalore</p>
+                                    <p><strong>Type of Space:</strong> High Energy Bar</p>
+                                    <hr>
+                                    <p class="mb-0"><strong>Established :</strong>2021</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <a class="artists-image-wrap" href="projects/Mirage_Beach_Club.html" style="width: 100%;">
+                                <img src="images/projects/Mirage/2.jpg" class="artists-image img-fluid">
+                                <div class="artists-hover">
+                                    <p><strong>Name:</strong> Mirage Beach Club</p>
+                                    <p><strong>Location:</strong> Goa</p>
+                                    <p><strong>Type of Space:</strong> High Energy Bar</p>
+                                    <hr>
+                                    <p class="mb-0"><strong>Established :</strong>2021</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div> -->
+                    <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <a class="artists-image-wrap" href="projects/The_Fatty_Bao.html" style="width: 100%;">
+                                <img src="images/projects/Fatty_Bao/1.jpg" class="artists-image img-fluid">
+                                <div class="artists-hover">
+                                    <p><strong>Name:</strong> The Fatty Bao</p>
+                                    <p><strong>Location:</strong> Bangalore</p>
+                                    <p><strong>Type of Space:</strong> Restaurant</p>
+                                    <hr>
+                                    <p class="mb-0"><strong>Established :</strong>2022</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <a class="artists-image-wrap" href="projects/Smoor.html" style="width: 100%;">
+                                <img src="images/projects/Smoor/1.jpg" class="artists-image img-fluid">
+                                <div class="artists-hover">
+                                    <p><strong>Name:</strong> Smoor</p>
+                                    <p><strong>Location:</strong> Bangalore</p>
+                                    <p><strong>Type of Space:</strong> Chocolate Cafe</p>
+                                    <hr>
+                                    <p class="mb-0"><strong>Established :</strong>2022</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <a class="artists-image-wrap" href="projects/Zythum.html" style="width: 100%;">
+                                <img src="images/projects/Zythum/1.jpg" class="artists-image img-fluid">
+                                <div class="artists-hover">
+                                    <p><strong>Name:</strong> Zythum</p>
+                                    <p><strong>Location:</strong> Hyderabad</p>
+                                    <p><strong>Type of Space:</strong> Microbrewery</p>
+                                    <hr>
+                                    <p class="mb-0"><strong>Established :</strong>2023</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <a class="artists-image-wrap" href="projects/Villa_No_14.html" style="width: 100%;">
+                                <img src="images/projects/" class="artists-image img-fluid">
+                                <div class="artists-hover">
+                                    <p><strong>Name:</strong> Villa No 14</p>
+                                    <p><strong>Location:</strong> Bangalore</p>
+                                    <p><strong>Type of Space:</strong> Residential</p>
+                                    <hr>
+                                    <p class="mb-0"><strong>Established :</strong>2022</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div> -->
+                    <!-- <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <a class="artists-image-wrap" href="projects/Villa_No_16.html" style="width: 100%;">
+                                <img src="images/slideshow/1.jpg" class="artists-image img-fluid">
+                                <div class="artists-hover">
+                                    <p><strong>Name:</strong> Villa No 16</p>
+                                    <p><strong>Location:</strong> Bangalore</p>
+                                    <p><strong>Type of Space:</strong> Residential</p>
+                                    <hr>
+                                    <p class="mb-0"><strong>Established :</strong>2024</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div> -->
+                    <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <a class="artists-image-wrap" href="projects/Lupa.html" style="width: 100%;">
+                                <img src="images/projects/Lupa/1.jpg" class="artists-image img-fluid">
+                                <div class="artists-hover">
+                                    <p><strong>Name:</strong> Lupa</p>
+                                    <p><strong>Location:</strong> Bangalore</p>
+                                    <p><strong>Type of Space:</strong> Luxury Fine Dine</p>
+                                    <hr>
+                                    <p class="mb-0"><strong>Established :</strong>2023</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <a class="artists-image-wrap" href="projects/Pangeo.html" style="width: 100%;">
+                                <img src="images/projects/Pangeo/1.jpg" class="artists-image img-fluid">
+                                <div class="artists-hover">
+                                    <p><strong>Name:</strong> Pangeo</p>
+                                    <p><strong>Location:</strong> Bangalore</p>
+                                    <p><strong>Type of Space:</strong> Lounge</p>
+                                    <hr>
+                                    <p class="mb-0"><strong>Established :</strong>2024</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <a class="artists-image-wrap" href="projects/Pangeo_X_Kingfisher_Ultra.html" style="width: 100%;">
+                                <img src="images/projects/Kingfisher_Ultra_Pangeo/1.jpg" class="artists-image img-fluid">
+                                <div class="artists-hover">
+                                    <p><strong>Name:</strong> Pangeo X Kingfisher Ultra</p>
+                                    <p><strong>Location:</strong> Bangalore</p>
+                                    <p><strong>Type of Space:</strong> Lounge</p>
+                                    <hr>
+                                    <p class="mb-0"><strong>Established :</strong>2024</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <a class="artists-image-wrap" href="projects/Ouro.html" style="width: 100%;">
+                                <img src="images/projects/Ouro/1.jpg" class="artists-image img-fluid">
+                                <div class="artists-hover">
+                                    <p><strong>Name:</strong> Ouro</p>
+                                    <p><strong>Location:</strong> Bangalore</p>
+                                    <p><strong>Type of Space:</strong> Restaurant</p>
+                                    <hr>
+                                    <p class="mb-0"><strong>Established :</strong>2024</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <a class="artists-image-wrap" href="projects/Gypsy_Tower.html" style="width: 100%;">
+                                <img src="images/projects/Gypsy/1.jpg" class="artists-image img-fluid">
+                                <div class="artists-hover">
+                                    <p><strong>Name:</strong> Gypsy Tower</p>
+                                    <p><strong>Location:</strong> Bangalore</p>
+                                    <p><strong>Type of Space:</strong> High Energy Bar</p>
+                                    <hr>
+                                    <p class="mb-0"><strong>Established :</strong>2024</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <a class="artists-image-wrap" href="projects/UTK.html" style="width: 100%;">
+                                <img src="images/projects/UTK/1.jpg" class="artists-image img-fluid">
+                                <div class="artists-hover">
+                                    <p><strong>Name:</strong> UTK</p>
+                                    <p><strong>Location:</strong> Bangalore</p>
+                                    <p><strong>Type of Space:</strong> Restaurant</p>
+                                    <hr>
+                                    <p class="mb-0"><strong>Established :</strong>2024</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <a class="artists-image-wrap" href="projects/Rahul_Josephs_Bar.html" style="width: 100%;">
+                                <img src="images/slideshow/1.jpg" class="artists-image img-fluid">
+                                <div class="artists-hover">
+                                    <p><strong>Name:</strong> Rahul Joseph's Bar</p>
+                                    <p><strong>Location:</strong> Bangalore</p>
+                                    <p><strong>Type of Space:</strong> Speakeasy Bar</p>
+                                    <hr>
+                                    <p class="mb-0"><strong>Established :</strong>2023</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div> -->
+                    <!-- <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <a class="artists-image-wrap" href="projects/ROTO.html" style="width: 100%;">
+                                <img src="images/slideshow/1.jpg" class="artists-image img-fluid">
+                                <div class="artists-hover">
+                                    <p><strong>Name:</strong> ROTO</p>
+                                    <p><strong>Location:</strong> Bangalore</p>
+                                    <p><strong>Type of Space:</strong> Microbrewery</p>
+                                    <hr>
+                                    <p class="mb-0"><strong>Work in Progress</strong></p>
+                                </div>
+                            </a>
+                        </div>
+                    </div> -->
+                    <!-- <div class="col-lg-5 col-12">
+                        <div class="artists-thumb">
+                            <a class="artists-image-wrap" href="projects/Pintos_Residence_Bar.html" style="width: 100%;">
+                                <img src="images/slideshow/1.jpg" class="artists-image img-fluid">
+                                <div class="artists-hover">
+                                    <p><strong>Name:</strong> Pinto's Residence Bar</p>
+                                    <p><strong>Location:</strong> Bangalore</p>
+                                    <p><strong>Type of Space:</strong> Speakeasy Bar</p>
+                                    <hr>
+                                    <p class="mb-0"><strong>Work in Progress</strong></p>
+                                </div>
+                            </a>
+                        </div>
+                    </div> -->
                 </div>
             </div>
         </section>
+        
     </main>
 
 
@@ -340,7 +467,7 @@
                         </li>
 
                         <li class="site-footer-link-item">
-                            <a href="career.html" class="site-footer-link">Career</a>
+                            <a href="https://www.linkedin.com/company/craft-codeblr/jobs/" class="site-footer-link">Career</a>
                         </li>
 
                         <li class="site-footer-link-item">

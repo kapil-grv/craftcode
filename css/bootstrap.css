@@ -9627,6 +9627,8 @@ textarea.form-control-lg {
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .logo span {
@@ -9653,7 +9655,6 @@ textarea.form-control-lg {
     overflow-x: auto; /* Enable horizontal scrolling */
     width: 100%;
     white-space: nowrap; /* Prevent line breaks */
-    gap: 30px; /* Adjust the gap between images */
 }
 
 .photo-gallery:hover {
@@ -9915,4 +9916,83 @@ textarea.form-control-lg {
   .merged-cell {
     text-align: center;
     vertical-align: middle;
+}
+
+.metrics-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.metric {
+    text-align: center;
+    color: #fff;
+    border-left: 6px solid #444;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.metric:first-child {
+    border-left: none;
+}
+
+.number {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 14px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .metrics-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .metric {
+        border-left: none;
+        border-top: 1px solid #444;
+        padding: 20px 0;
+    }
+
+    .metric:first-child {
+        border-top: none;
+    }
+}
+
+/* Services */
+
+.services-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    justify-items: center;
+    padding: 50px 20px;
+}
+
+.service {
+    text-align: center;
+}
+
+.service img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.service-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .services-section {
+        grid-template-columns: 1fr;
+    }
 }

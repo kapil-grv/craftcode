@@ -24,13 +24,30 @@
     <link href="css/templatemo-festava-live.css" rel="stylesheet">
 
 </head>
+<style>
+    @keyframes reveal {
+      80% {
+        letter-spacing: 8px;
+      }
+      100% {
+        background-size: 300% 300%;
+      }
+    }
+
+    @keyframes glow {
+      40% {
+        text-shadow: 0 0 8px #357fdf;
+      }
+    }
+  </style>
+
 <body>
 
     <!-- Loading Page -->
     <div id="loading-page" class="loading-page">
-        <div class="loader-container">
-            <p class="logo">Craft CoDe</p>
-            <div class="loading-bar" id="loading-bar" style="width: 5px; "></div>
+        <div class="loader-container" style="width: 100%; ">
+            <p class="logo" style="background: 50% 100% / 50% 50% no-repeat radial-gradient(ellipse at bottom, #357fdf, transparent, transparent); -webkit-background-clip: text; background-clip: text; color: transparent; font-size: 5vw; animation: reveal 1000ms ease-in-out forwards 200ms, glow 1500ms linear infinite 1000ms;">Craft CoDe</p>
+            <!-- <div class="loading-bar" id="loading-bar" style="width: 5px; "></div> -->
         </div>
     </div>
 
@@ -81,74 +98,53 @@
 
         </section>
 
-        <section class="schedule-section section-padding" id="services" style="background-color: white;">
+        <section class="schedule-section section-padding" id="services" style="background-color: #004aad;">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-7 col-12">
-                        <div class="table-responsive">
-                            <table class="table table-bordered" style="border-radius: 10px; overflow: hidden;">
-                                <tbody>
-                                    <tr class="category-1">
-                                        <td rowspan="3" class="merged-cell" style="background-color: #0033b2; color: white; width: 30%;">F&B</td>
-                                        <td style="background-color: #9ca8c4; color: white; text-align: left; vertical-align: middle; padding-left: 5%; width: 100%; height: 100%;">BARS // LOUNGES</td>
-                                        <td style="display: flex; background-color: #001fb4; justify-content: center;"><img style="width: 80%;" src="images/icons/1.1.png" alt="bar-loungue-icon"></td>
-                                    </tr>
-                                    <tr class="category-1">
-                                        <td style="background-color: #abb5cd; color: white; text-align: left; vertical-align: middle; padding-left: 5%; width: 100%; height: 100%;">RESTAURANTS // EATERIES</td>
-                                        <td style="display: flex; background-color: #003bc8; justify-content: center;"><img style="width: 50px;" src="images/icons/4.png" alt="restaurants-eateries-icon"></td>
-                                    </tr>
-                                    <tr class="category-1">
-                                        <td style="background-color: #b5bed3; color: white; text-align: left; vertical-align: middle; padding-left: 5%;">MICROBREWERIES // TAPROOMS</td>
-                                        <td style="display: flex; background-color: #0059c3; justify-content: center;"><img style="width: 50px;" src="images/icons/5.png" alt="microbreweries-taprooms-icon"></td>
-                                    </tr>
-                                    <tr class="category-2">
-                                        <td rowspan="2" class="merged-cell" style="background-color: #0070c0; color: white; width: 30%;">LEISURE</td>
-                                        <td style="background-color: #b5c1d4; color: white; text-align: left; vertical-align: middle; padding-left: 5%;">HOSPITALITY</td>
-                                        <td style="display: flex; background-color: #0070c0; justify-content: center;"><img style="width: 50px;" src="images/icons/6.png" alt="hospitality-icon"></td>
-                                    </tr>
-                                    <tr class="category-2">
-                                        <td style="background-color: #c0cada; color: white; text-align: left; vertical-align: middle; padding-left: 5%;">ENTERTAINMENT</td>
-                                        <td style="display: flex; background-color: #3798de; justify-content: center;"><img style="width: 50px;" src="images/icons/7.png" alt="entertainment-icon"></td>
-                                    </tr>
-                                    <tr class="category-3">
-                                        <td rowspan="3" class="merged-cell" style="background-color: #a8d7e4; color: white; width: 30%;">LUXURY</td>
-                                        <td style="background-color: #c3c6d2; color: white; text-align: left; vertical-align: middle; padding-left: 5%;">WORKSPACES</td>
-                                        <td style="display: flex; background-color: #5cafeb; justify-content: center;"><img style="width: 50px;" src="images/icons/8.png" alt="workspaces-icon"></td>
-                                    </tr>
-                                    <tr class="category-3">
-                                        <td style="background-color: #cecad9; color: white; text-align: left; vertical-align: middle; padding-left: 5%;">RETAIL</td>
-                                        <td style="display: flex; background-color: #6bc6ed; justify-content: center;"><img style="width: 50px;" src="images/icons/3.1.png" alt="retail-icon"></td>
-                                    </tr>
-                                    <tr class="category-3">
-                                        <td style="background-color: #cecad9; color: white; text-align: left; vertical-align: middle; padding-left: 5%;">RESIDENTIAL</td>
-                                        <td style="display: flex; background-color: #a8d7e4; justify-content: center;"><img style="width: 50px;" src="images/icons/2.1.png" alt="residential-icon"></td>
-                                    </tr>
-                                </tbody>
-                            </table>
+
+                    <div class="col-lg-12 col-12 mb-4 mb-lg-0 d-flex align-items-center" style="text-align: center;">
+                        <div class="services-info">
+                            <h4 class="mb-4" style="color: white; padding-bottom: 5%;">At our company, we excel in managing turnkey projects from inception to completion with unparalleled efficiency and precision.</h4>
+                            <h4 class="mb-4" style="color: white; padding-bottom: 5%;">Our commitment to excellence ensures that every project is delivered seamlessly, meeting the highest standards of quality and craftsmanship.</h4>
                         </div>
                     </div>
 
-                    <div class="col-lg-5 col-12">
-                        <div class="services-info">
-
-                            <div class="black-line" style="width: 110px; height: 5px; background-color: #000000;"></div>
-                            <h6 class="mb-4" style="padding-top: 5%; text-align: left; font-family: barlow; font-size: x-large; font-weight: var(--font-weight-bold)--; padding-bottom: 15%;">Our company takes pride in
-                                its ability to handle turnkey
-                                projects from start to finish with
-                                utmost efficiency.</h6>
-
-                            <p style="padding-bottom: 5%; font-family: barlow; color: #909295;">Craft Code works Pan India</p>
-
-                            <p class="text-grey" style="font-family: barlow; color: #909295;">We have successfully completed projects
-                                in various cities across India Including
-                                <b class="text-black">Bangalore, Mumbai, Hyderabad, Chennai,
-                                Ooty, Goa, Pune and Nagpur.</b></p>
-
-                            <p style="font-family: barlow; color: #909295;">From design to build, we’ve got you covered!
-                                Our services offer a seamless integration from
-                                foundation to furniture and lights and finishing
-                                touches. Experience the perfect blend of style
-                                and functionality with us.</p>
+                    <div class="services-section">
+                        <div class="service">
+                            <img src="images/icons/Seamless Design Development.jpeg" alt="Seamless Design Development" style="width: 15%; height: auto;">
+                            <div class="service-label">Seamless Design Development</div>
+                        </div>
+                        <div class="service">
+                            <img src="images/icons/Civil & Interiors Fitouts.jpeg" alt="⁠Civil & Interiors Fitouts" style="width: 15%; height: auto;">
+                            <div class="service-label">⁠Civil & Interiors Fitouts</div>
+                        </div>
+                        <div class="service">
+                            <img src="images/icons/PHE Services.png" alt="PHE Services" style="width: 15%; height: auto;">
+                            <div class="service-label">⁠PHE Services</div>
+                        </div>
+                        <div class="service">
+                            <img src="images/icons/Electrical Services.jpeg" alt="Electrical Services" style="width: 15%; height: auto;">
+                            <div class="service-label">⁠Electrical Services</div>
+                        </div> 
+                        <div class="service">
+                            <img src="images/icons/HVAC_Systems-1.png" alt="⁠HVAC Systems" style="width: 15%; height: auto;">
+                            <div class="service-label">⁠HVAC Systems</div>
+                        </div>
+                        <div class="service">
+                            <img src="images/icons/Glazing & Fabrication works.jpeg" alt="⁠Glazing & Fabrication works" style="width: 15%; height: auto;">
+                            <div class="service-label">⁠Glazing & Fabrication works</div>
+                        </div>
+                        <div class="service">
+                            <img src="images/icons/Retractable Roofs.jpeg" alt="Retractable Roofs" style="width: 15%; height: auto;">
+                            <div class="service-label">Retractable Roofs</div>
+                        </div>
+                        <div class="service">
+                            <img src="images/icons/Custom-Designed Lights.jpeg" alt="⁠Custom-Designed Lights" style="width: 15%; height: auto;">
+                            <div class="service-label">⁠Custom-Designed Lights</div>
+                        </div>
+                        <div class="service">
+                            <img src="images/icons/Furnishings & Equipment.jpeg" alt="⁠Furnishings & Equipment" style="width: 15%; height: auto;">
+                            <div class="service-label">⁠Furnishings & Equipment (FF&E)</div>
                         </div>
                     </div>
                 </div>

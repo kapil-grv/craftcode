@@ -27,13 +27,30 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
 
 </head>
+<style>
+    @keyframes reveal {
+      80% {
+        letter-spacing: 8px;
+      }
+      100% {
+        background-size: 300% 300%;
+      }
+    }
+
+    @keyframes glow {
+      40% {
+        text-shadow: 0 0 8px #357fdf;
+      }
+    }
+  </style>
+
 <body>
 
     <!-- Loading Page -->
     <div id="loading-page" class="loading-page">
-        <div class="loader-container">
-            <p class="logo">Craft CoDe</p>
-            <div class="loading-bar" id="loading-bar" style="width: 5px; "></div>
+        <div class="loader-container" style="width: 100%; ">
+            <p class="logo" style="background: 50% 100% / 50% 50% no-repeat radial-gradient(ellipse at bottom, #357fdf, transparent, transparent); -webkit-background-clip: text; background-clip: text; color: transparent; font-size: 5vw; animation: reveal 1000ms ease-in-out forwards 200ms, glow 1500ms linear infinite 1000ms;">Craft CoDe</p>
+            <!-- <div class="loading-bar" id="loading-bar" style="width: 5px; "></div> -->
         </div>
     </div>
 
@@ -70,7 +87,7 @@
             <div class="container d-flex justify-content-left align-items-left">
 
                     <div class="col-lg-6 col-12">
-                        <h2 class="text-white mb-lg-0" style="margin-top: 100%; font-family: barlow;">PANGEO</h2>
+                        <h2 class="text-white mb-lg-0" style="margin-top: 70%; font-family: barlow;">PANGEO</h2>
                     </div>
                 </div>
             </div>
@@ -120,50 +137,67 @@
             </div>
         </section>
 
-
         <section class="section-padding" id="about_badmaash">
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-10 col-12 mb-4 mb-lg-0 d-flex align-items-center">
-                        <div class="services-info" style="max-width: 90%;">
-                            <h2 class="text-black mb-4" style="padding-bottom: 5%;">About PANGEO</h2>
+                    <div class="col-lg-7 col-12 mb-4 mb-lg-0 d-flex align-items-center" style="background-color: #e0e0e1; border-radius: 20px; max-width: 90%; margin-right: 0.5%; padding-top: 20px;">
+                        <div class="services-info" style="max-width: 100%;">
 
-                            <p class="text-black">Embrace the allure of open-air elegance while enjoying the seamless blend of
-                                indoor comfort at this rooftop oasis. This rooftop lounge has a massive bar
-                                Facade and Gigantic retractable roof.</p>
+                            <div class="photo-gallery">
+                                <a href="../images/projects/pangeo/20230712-DSC07251.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230712-DSC07251.jpg" alt="DSC07251"></a>
+                                <a href="../images/projects/pangeo/20230712-DSC07477-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230712-DSC07477-Edit.jpg" alt="DSC07477"></a>
+                                <a href="../images/projects/pangeo/20230712-DSC07507-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230712-DSC07507-Edit.jpg" alt="DSC07507"></a>
+                                <a href="../images/projects/pangeo/20230712-DSC07522-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230712-DSC07522-Edit.jpg" alt="DSC07522"></a>
+                                <a href="../images/projects/pangeo/20230712-DSC07540-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230712-DSC07540-Edit.jpg" alt="DSC07540"></a>
+                                <a href="../images/projects/pangeo/20230712-DSC07555-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230712-DSC07555-Edit.jpg" alt="DSC07555"></a>
+                                <a href="../images/projects/pangeo/20230713-DSC07626-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230713-DSC07626-Edit.jpg" alt="DSC07626"></a>
+                                <a href="../images/projects/pangeo/20230713-DSC07698-Edit-2.jpg" data-fancybox="gallery" class="gallery-item">><img src="../images/projects/pangeo/20230713-DSC07698-Edit-2.jpg"alt="DSC07698"></a>
+                                <a href="../images/projects/pangeo/20230713-DSC07707-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230713-DSC07707-Edit.jpg" alt="DSC07707"></a>
+                                <a href="../images/projects/pangeo/20230713-DSC07719-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230713-DSC07719-Edit.jpg" alt="DSC07719"></a>
+                                <a href="../images/projects/pangeo/20230713-DSC07731-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230713-DSC07731-Edit.jpg" alt="DSC07731"></a>
+                                <a href="../images/projects/pangeo/20230713-DSC07743-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230713-DSC07743-Edit.jpg" alt="DSC07743"></a>
+                                <a href="../images/projects/pangeo/20230713-DSC07782-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230713-DSC07782-Edit.jpg" alt="DSC07782"></a>
+                                <a href="../images/projects/pangeo/20230713-DSC07791-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230713-DSC07791-Edit.jpg" alt="DSC07791"></a>
+                                <a href="../images/projects/pangeo/20230713-DSC07836-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230713-DSC07836-Edit.jpg" alt="DSC07836"></a>
+                                <a href="../images/projects/pangeo/20230713-DSC07857-Edit-Edit.jpg" data-fancybox="gallery" class="gallery-item">><img src="../images/projects/pangeo/20230713-DSC07857-Edit-Edit.jpg" alt="DSC07857"></a>
+                                <!-- Add more photos as needed -->
+                            </div>
 
-                            <h6 class="mt-4" style="color: gray;">Gastronomic Gales</h6>
-
-                            <p class="text-black"> The variegated floor levels, Dynamic
-                                lighting, and iconic Pangeo Sphere create an unforgettable ambiance. The
-                                Chivas Lounge adds an exclusive touch to the Pangeo experience.</p>
-
-                            <h6 class="mt-4" style="color: gray;">Scope of work</h6>
-
-                            <p class="text-black">Civil, MEP, Interiors, Structural Fabrication, Glazing and Retractable Roof</p>
-                            
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-12">
+                    <div class="col-lg-2 col-12" style="background-color: #e0e0e1; border-radius: 20px; margin-right: 0.5%; padding-top: 10px;">
+                        <div class="artists-thumb" style="text-align: center;">
+                            <a class="artists-image-wrap">
+                                <img src="../images/clients/pangeo.png"
+                                    class="artists-image img-fluid">
+                            </a>
+                        </div>
                         <div class="about-text-wrap">
-                            <div class="col-lg-6 col-12">
-                                <div class="artists-thumb" style="width: 300px;">
-                                    <a class="artists-image-wrap">
-                                        <img src="../images/clients/pangeo.png"
-                                            class="artists-image img-fluid" style="width: 200px; height: 200px;">
-                                    </a>
-                                </div>
-                            </div>
+                            <h6 class="mt-4" style="color: gray; padding-bottom: 20px;">Scope of work</h6>
+                            <p class="text-black">Civil</p>
+                            <p class="text-black">MEP</p>
+                            <p class="text-black">Interiors</p>
+                            <p class="text-black">Structural Fabrication</p>
+                            <p class="text-black">Glazing and Retractable Roof</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-2 col-12" style="background-color: #e0e0e1; border-radius: 20px; padding-top: 10px;">
+                        <div class="about-text-wrap" style="padding-top: 82%;">
+                            <!-- <div class="col-lg-6 col-12"> -->
+                                
+                            <!-- </div> -->
                             <h6 class="mt-4" style="color: gray;">Location</h6>
                             <p class="text-black">Bangalore, India</p>
 
-                            <h6 class="mt-4" style="color: gray;">Space type</h6>
-                            <p class="text-black">Rooftop Lounge</p>
-
                             <h6 class="mt-4" style="color: gray;">Area</h6>
                             <p class="text-black">20,000 Sq. ft.</p>
+
+                            <h6 class="mt-4" style="color: gray;">Space type</h6>
+                            <p class="text-black">Rooftop Lounge</p>
 
                             <h6 class="mt-4" style="color: gray;">Completion</h6>
                             <p class="text-black">2024</p>
@@ -173,39 +207,6 @@
 
                 </div>
             </div>
-        </section>
-
-
-        <section class="artists-section section-padding" id="projects">
-            <!-- <div class="container"> -->
-                <!-- <div class="row"> -->
-
-                    <div class="col-12 text-center">
-                        <h2 class="mb-4"  style="padding-bottom: 5%;">Gallery</h1>
-                    </div>
-
-                    <div class="photo-gallery">
-                        <a href="../images/projects/pangeo/20230712-DSC07251.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230712-DSC07251.jpg" alt="DSC07251"></a>
-                        <a href="../images/projects/pangeo/20230712-DSC07477-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230712-DSC07477-Edit.jpg" alt="DSC07477"></a>
-                        <a href="../images/projects/pangeo/20230712-DSC07507-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230712-DSC07507-Edit.jpg" alt="DSC07507"></a>
-                        <a href="../images/projects/pangeo/20230712-DSC07522-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230712-DSC07522-Edit.jpg" alt="DSC07522"></a>
-                        <a href="../images/projects/pangeo/20230712-DSC07540-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230712-DSC07540-Edit.jpg" alt="DSC07540"></a>
-                        <a href="../images/projects/pangeo/20230712-DSC07555-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230712-DSC07555-Edit.jpg" alt="DSC07555"></a>
-                        <a href="../images/projects/pangeo/20230713-DSC07626-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230713-DSC07626-Edit.jpg" alt="DSC07626"></a>
-                        <a href="../images/projects/pangeo/20230713-DSC07698-Edit-2.jpg" data-fancybox="gallery" class="gallery-item">><img src="../images/projects/pangeo/20230713-DSC07698-Edit-2.jpg"alt="DSC07698"></a>
-                        <a href="../images/projects/pangeo/20230713-DSC07707-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230713-DSC07707-Edit.jpg" alt="DSC07707"></a>
-                        <a href="../images/projects/pangeo/20230713-DSC07719-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230713-DSC07719-Edit.jpg" alt="DSC07719"></a>
-                        <a href="../images/projects/pangeo/20230713-DSC07731-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230713-DSC07731-Edit.jpg" alt="DSC07731"></a>
-                        <a href="../images/projects/pangeo/20230713-DSC07743-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230713-DSC07743-Edit.jpg" alt="DSC07743"></a>
-                        <a href="../images/projects/pangeo/20230713-DSC07782-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230713-DSC07782-Edit.jpg" alt="DSC07782"></a>
-                        <a href="../images/projects/pangeo/20230713-DSC07791-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230713-DSC07791-Edit.jpg" alt="DSC07791"></a>
-                        <a href="../images/projects/pangeo/20230713-DSC07836-Edit.jpg" data-fancybox="gallery" class="gallery-item"><img src="../images/projects/pangeo/20230713-DSC07836-Edit.jpg" alt="DSC07836"></a>
-                        <a href="../images/projects/pangeo/20230713-DSC07857-Edit-Edit.jpg" data-fancybox="gallery" class="gallery-item">><img src="../images/projects/pangeo/20230713-DSC07857-Edit-Edit.jpg" alt="DSC07857"></a>
-                        <!-- Add more photos as needed -->
-                    </div>
-
-                <!-- </div> -->
-            <!-- </div> -->
         </section>
 
     </main>
@@ -273,7 +274,7 @@
                         </li>
 
                         <li class="site-footer-link-item">
-                            <a href="../career.html" class="site-footer-link">Career</a>
+                            <a href="https://www.linkedin.com/company/craft-codeblr/jobs/" class="site-footer-link">Career</a>
                         </li>
 
                         <li class="site-footer-link-item">

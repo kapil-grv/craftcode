@@ -24,13 +24,30 @@
     <link href="css/templatemo-festava-live.css" rel="stylesheet">
 
 </head>
+<style>
+    @keyframes reveal {
+      80% {
+        letter-spacing: 8px;
+      }
+      100% {
+        background-size: 300% 300%;
+      }
+    }
+
+    @keyframes glow {
+      40% {
+        text-shadow: 0 0 8px #357fdf;
+      }
+    }
+  </style>
+
 <body>
 
     <!-- Loading Page -->
     <div id="loading-page" class="loading-page">
-        <div class="loader-container">
-            <p class="logo" id="animatedLogo"></p>
-            <div class="loading-bar" id="loading-bar" style="width: 0; "></div>
+        <div class="loader-container" style="width: 100%; ">
+            <p class="logo" style="background: 50% 100% / 50% 50% no-repeat radial-gradient(ellipse at bottom, #357fdf, transparent, transparent); -webkit-background-clip: text; background-clip: text; color: transparent; font-size: 5vw; animation: reveal 1000ms ease-in-out forwards 200ms, glow 1500ms linear infinite 1000ms;">Craft CoDe</p>
+            <!-- <div class="loading-bar" id="loading-bar" style="width: 5px; "></div> -->
         </div>
     </div>
 
@@ -70,7 +87,7 @@
 
                     <div class="col-lg-12 mt-auto mb-5 text-left">
 
-                        <h1 class="text-white mb-5" style="font-family: barlow; font-size: 38px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.705);">Crafting spaces that speak volumes</h1>
+                        <h1 class="text-white mb-5" style="font-family: barlow; font-size: 38px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.705);">Transforming Visions into Architectural Masterpieces</h1>
                         <small style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.705);">Discover more</small>
 
                     </div>
@@ -192,12 +209,136 @@
             </div>
         </section>
 
+        <section class="artists-section section-padding" id="team">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-12 text-center">
+                        <h2 class="mb-4" style="padding-bottom: 5%;">Our Team</h1>
+                    </div>
+
+                    <div class="col-lg-6 col-12" style="width: 20%;">
+                        <div class="artists-thumb">
+                            <img src="images/team/Jatin.jpg"
+                                class="artists-image img-fluid">
+                            <div class="artists-hover" style="margin: 10px; padding: 10px;">
+                                <p>
+                                    <strong>Jatin Hukkeri</strong>
+                                    <strong>Founder and Managing Director</strong>
+                                </p>
+
+                                <p>
+                                    j@wdaspaces.com
+                                </p>
+
+                                <li class="social-icon-item">
+                                    <a href="mailto:j@wdaspaces.com" target="_blank" class="social-icon-link">
+                                        <span class="bi-mailbox2"></span>
+                                    </a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="https://www.linkedin.com/in/jatin-hukkeri-3509397b/" target="_blank" class="social-icon-link">
+                                        <span class="bi-linkedin"></span>
+                                    </a>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="artists-thumb">
+                            <img src="images/team/Abhishek.jpg"
+                                class="artists-image img-fluid">
+                            <div class="artists-hover" style="margin: 10px; padding: 10px;">
+                                <p>
+                                    <strong>Abhishek Pawar</strong>
+                                    <strong>Director, Projects</strong>
+                                </p>
+
+                                <p>
+                                    build@craftcode.in
+                                </p>
+
+                                <li class="social-icon-item">
+                                    <a href="mailto:build@craftcode.in" target="_blank" class="social-icon-link">
+                                        <span class="bi-mailbox2"></span>
+                                    </a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="https://www.linkedin.com/in/reach-abhishekpawar/" target="_blank" class="social-icon-link">
+                                        <span class="bi-linkedin"></span>
+                                    </a>
+                                </li>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="col-lg-6 col-12" style="width: 20%;">
+                        <div class="artists-thumb">
+                            <img src="images/team/Jayesh.jpg"
+                                class="artists-image img-fluid">
+                            <div class="artists-hover" style="margin: 10px; padding: 10px;">
+                                <p>
+                                    <strong>Jayesh Hukkeri</strong>
+                                    <strong>Director, Finance</strong>
+                                </p>
+
+                                <p>
+                                    jayesh@craftcode.in
+                                </p>
+
+                                <li class="social-icon-item">
+                                    <a href="mailto:jayesh@craftcode.in" target="_blank" class="social-icon-link">
+                                        <span class="bi-mailbox2"></span>
+                                    </a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="https://www.linkedin.com/in/jayeshvh/" target="_blank" class="social-icon-link">
+                                        <span class="bi-linkedin"></span>
+                                    </a>
+                                </li>
+                            </div>
+                        </div>
+
+                        <div class="artists-thumb">
+                            <img src="images/team/Santosh.jpg"
+                                class="artists-image img-fluid">
+                            <div class="artists-hover" style="margin: 10px; padding: 10px;">
+                                <p>
+                                    <strong>Santosh Kumar S</strong>
+                                    <strong>Director, Projects</strong>
+                                </p>
+
+                                <p>
+                                    santosh@craftcode.in
+                                </p>
+
+                                <li class="social-icon-item">
+                                    <a href="mailto:santosh@craftcode.in" target="_blank" class="social-icon-link">
+                                        <span class="bi-mailbox2"></span>
+                                    </a>
+                                </li>
+
+                                <li class="social-icon-item">
+                                    <a href="https://www.linkedin.com/in/santosh/" target="_blank" class="social-icon-link">
+                                        <span class="bi-linkedin"></span>
+                                    </a>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
         <section class="artists-section section-padding" id="clients">
             <div class="container">
                 <div class="row justify-content-center">
 
                     <div class="col-12 text-center">
-                        <h2 class="mb-4" style=" padding-bottom: 5%;">Our Clients</h2>
+                        <h2 class="mb-4" style="padding-bottom: 5%;">Our Clients</h2>
                     </div>
 
                     <div class="col-lg-4 col-12">
@@ -252,7 +393,7 @@
                             </a>
                         </div>
 
-                        <div class="artists-thumb" style="width: 300px; height: 300px; left: 20%;">
+                        <div class="artists-thumb" style="width: 50%; height: 100%; left: 35%; top: 6%;">
                             <a class="artists-image-wrap" href="projects/tycoons.html">
                                 <img src="images/clients/tycoons.png"
                                     class="artists-image img-fluid">
@@ -293,6 +434,27 @@
             </div>
         </section>
     </main>
+
+    <section class="about-section section-padding" id="about_us">
+        <div class="container">
+            <div class="row">
+                <div class="metrics-section">
+                    <div class="metric">
+                        <div class="logo" style="color: #fff;">500,000</div>
+                        <div class="label">Square Feet of Space Built</div>
+                    </div>
+                    <div class="metric">
+                        <div class="logo" style="color: #fff;">25+</div>
+                        <div class="label">Trusted Premium Clients across INDIA</div>
+                    </div>
+                    <div class="metric">
+                        <div class="logo" style="color: #fff;">40+</div>
+                        <div class="label">Experts at your service</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <footer class="site-footer">
@@ -357,7 +519,7 @@
                         </li>
 
                         <li class="site-footer-link-item">
-                            <a href="career.html" class="site-footer-link">Career</a>
+                            <a href="https://www.linkedin.com/company/craft-codeblr/jobs/" class="site-footer-link">Career</a>
                         </li>
 
                         <li class="site-footer-link-item">
