@@ -945,7 +945,7 @@ progress {
     width: 25%}
 .col-lg-4 {
     flex: 0 0 auto;
-    width: 33.33333333%}
+    width: 40.33333333%}
 .col-lg-5 {
     flex: 0 0 auto;
     width: 41.66666667%}
@@ -9602,6 +9602,11 @@ textarea.form-control-lg {
     }
   }
 
+.mySlides img {
+    width: 100%;
+    height: 100%;
+  }
+
 
 .loading-page {
     position: fixed;
@@ -9988,7 +9993,7 @@ textarea.form-control-lg {
 .service-label {
     font-size: 18px;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 @media (max-width: 768px) {

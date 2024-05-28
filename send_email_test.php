@@ -34,7 +34,7 @@ if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
 
         //Recipients
         $mail->setFrom($email, $name);
-        $mail->addAddress('contact@craftcode.in', 'Contact Page'); // Replace with recipient email address
+        $mail->addAddress('kapilgrv@gmail.com', 'Contact Page'); // Replace with recipient email address
 
         // Content
         $mail->isHTML(true);

@@ -167,3 +167,37 @@ document.addEventListener("DOMContentLoaded", function() {
 
         setTimeout(typeLetter, 100); // Initial delay before starting the animation
     });
+
+// mailer
+
+document.getElementById('contactForm').addEventListener('submit', async function(event) {
+  event.preventDefault(); // Prevent the default form submission
+
+  // Retrieve form data
+  const name = document.getElementById('contact-name').value;
+  const email = document.getElementById('contact-email').value;
+  const company = document.getElementById('contact-company').value;
+  const message = document.getElementById('contact-message').value;
+
+  // Create a FormData object
+  const formData = new FormData();
+  formData.append('name', name);
+  formData.append('email', email);
+  formData.append('company', company);
+  formData.append('message', message);
+
+  try {
+    // Send the form data to the PHP script using fetch
+    const response = await fetch('send_email.php', {
+      method: 'POST',
+      body: formData
+    });
+
+    // Handle the response
+    const result = await response.text();
+    alert(result); // Display the response from the server
+  } catch (error) {
+    console.error('Error:', error);
+    alert('An error occurred while sending the email.');
+  }
+});
